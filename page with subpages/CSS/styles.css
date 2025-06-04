@@ -143,3 +143,58 @@ footer {
 .icon-box a:hover {
 	color: #0086f3;
 }
+
+.services-list {
+	text-align: center;
+	list-style-position: inside;
+
+	/* margin: 0 auto;
+	width: 100px; */
+}
+
+.price-table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 2px solid rgb(140 140 140);
+}
+
+thead,
+tfoot {
+	background-color: #0086f3;
+	font-weight: bold;
+}
+
+.price-table th,
+.price-table td {
+	padding: 8px 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+caption {
+	caption-side: bottom;
+	padding: 10px;
+}
+
+a[href^='mailto']::before {
+	content: '📧 ';
+}
+
+a[href^='tel']::before {
+	content: '📞 ';
+}
+
+.contact-title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+address {
+	text-align: center;
+	font-size: 26px;
+}
+
+.contact-info {
+	text-decoration: none;
+	color: black;
+}
